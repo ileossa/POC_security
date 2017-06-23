@@ -1,0 +1,11 @@
+${AnsiColor.RED}  _${AnsiColor.BRIGHT_RED}___${AnsiColor.BRIGHT_YELLOW}__  ${AnsiColor.YELLOW}     ${AnsiColor.BRIGHT_GREEN}      ${AnsiColor.GREEN}     ${AnsiColor.BRIGHT_MAGENTA}        ${AnsiColor.MAGENTA}   ___${AnsiColor.BRIGHT_CYAN}    _____${AnsiColor.CYAN}__
+${AnsiColor.RED} / ${AnsiColor.BRIGHT_RED}___${AnsiColor.BRIGHT_YELLOW}__) ${AnsiColor.YELLOW}     ${AnsiColor.BRIGHT_GREEN}      ${AnsiColor.GREEN}     ${AnsiColor.BRIGHT_MAGENTA}        ${AnsiColor.MAGENTA}  / __${AnsiColor.BRIGHT_CYAN})  (_____${AnsiColor.CYAN}__)
+${AnsiColor.RED}| /${AnsiColor.BRIGHT_RED}  _${AnsiColor.BRIGHT_YELLOW}__  ${AnsiColor.YELLOW}____ ${AnsiColor.BRIGHT_GREEN}____  ${AnsiColor.GREEN} ____${AnsiColor.BRIGHT_MAGENTA}     ___${AnsiColor.MAGENTA} | |__${AnsiColor.BRIGHT_CYAN}    _____${AnsiColor.CYAN} ___  ${AnsiColor.BLUE}_   _ ${AnsiColor.DEFAULT} ____
+${AnsiColor.RED}| |${AnsiColor.BRIGHT_RED} (_${AnsiColor.BRIGHT_YELLOW}__)/${AnsiColor.YELLOW} _  |${AnsiColor.BRIGHT_GREEN}  _ \ ${AnsiColor.GREEN}/ _  ${AnsiColor.BRIGHT_MAGENTA}|   / _ ${AnsiColor.MAGENTA}\|  __${AnsiColor.BRIGHT_CYAN})  |  ___${AnsiColor.CYAN}) _ \|${AnsiColor.BLUE} | | |${AnsiColor.DEFAULT}/ ___)
+${AnsiColor.RED}| \${AnsiColor.BRIGHT_RED}___${AnsiColor.BRIGHT_YELLOW}_/( ${AnsiColor.YELLOW}( | |${AnsiColor.BRIGHT_GREEN} | | (${AnsiColor.GREEN} ( | ${AnsiColor.BRIGHT_MAGENTA}|  | |_|${AnsiColor.MAGENTA} | |  ${AnsiColor.BRIGHT_CYAN}   | |  |${AnsiColor.CYAN} |_| |${AnsiColor.BLUE} |_| |${AnsiColor.DEFAULT} |
+${AnsiColor.RED} \_${AnsiColor.BRIGHT_RED}___${AnsiColor.BRIGHT_YELLOW}_/ \${AnsiColor.YELLOW}_||_|${AnsiColor.BRIGHT_GREEN}_| |_|${AnsiColor.GREEN}\_|| ${AnsiColor.BRIGHT_MAGENTA}|   \___${AnsiColor.MAGENTA}/|_|  ${AnsiColor.BRIGHT_CYAN}   |_|   ${AnsiColor.CYAN}\___/ ${AnsiColor.BLUE}\____|${AnsiColor.DEFAULT}_|
+${AnsiColor.RED}   ${AnsiColor.BRIGHT_RED}   ${AnsiColor.BRIGHT_YELLOW}    ${AnsiColor.YELLOW}     ${AnsiColor.BRIGHT_GREEN}     (${AnsiColor.GREEN}_____${AnsiColor.BRIGHT_MAGENTA}|
+${AnsiColor.MAGENTA}${AnsiColor.BRIGHT_CYAN}${AnsiColor.CYAN}${AnsiColor.BLUE}${AnsiColor.DEFAULT}
+
+${spring.application.name} ::: ${application.version} ::: mode[${spring.profiles.active}]
+${app.description}

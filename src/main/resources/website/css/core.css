@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    background-color: lightblue;
+}
+
+#wrapper{
+    margin: 0 auto;
+    padding: 2px;
+    width: 60%;
+    background-color: ivory;
+    border-radius: 20px;
+}
+
+#confirmation {
+    display: none
+}
+
+.fields {
+    margin: 30px 0;
+}
+
+.field {
+    margin: 4px 0;
+}
+
+.field label {
+    display: inline-block;
+    padding-right: 8px;
+    min-width: 100px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+}
+
+.field input {
+    min-width: 180px;
+    width: 50%;
+    padding: 2px 10px;
+}
+
+button {
+    min-width: 100px;
+    min-height: 30px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: ivory;
+}
+
+button:focus {
+    outline: 0;
+}
+
+#authent-reset, #confirm-logout {
+    background-color: orange;
+}
+
+#authent-login, #confirm-submit {
+    background-color: limegreen;
+}
+
+
+#info {
+    color: blue;
+    font-weight: bold;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+}

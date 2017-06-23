@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Authentication</title>
+        <script type="text/javascript" src="js/ajax.js"></script>
+        <script type="text/javascript" src="js/sha1.js"></script>
+        <script type="text/javascript" src="js/core.js"></script>
+
+        <link type="text/css" rel="stylesheet" href="css/core.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="authentication">
+                <div>
+                    <h1>Authentication form</h1>
+                </div>
+                <div class="fields">
+                    <div class="field">
+                        <label for="mail">Mail address</label>
+                        <input id="mail" type="email" placeholder="Type your mail address">
+                    </div>
+                    <div class="field">
+                        <label for="pass">Password</label>
+                        <input id="pass" type="password" placeholder="Type your password">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="authent-reset">Reset</button>
+                    <button id="authent-login">Login</button>
+                </div>
+            </div>
+            <div id="confirmation">
+                <div>
+                    <h1>Confirmation form</h1>
+                </div>
+                <div class="fields">
+                    <div class="field">
+                        <label for="code">Code</label>
+                        <input id="code" type="number" placeholder="Type your code">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="confirm-logout">Logout</button>
+                    <button id="confirm-submit">Submit</button>
+                </div>
+            </div>
+            <div>
+                <p id="info"></p>
+                <p id="error"></p>
+            </div>
+        </div>
+    </body>
+</html>
